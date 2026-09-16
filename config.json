@@ -1,9 +1,16 @@
 {
-    "job_titles": ["Product Designer", "UX Designer", "UI Designer", "Interaction Designer"],
-    "locations": ["Remote","USA","Canada","Kenya"],
-    "country_indeed": "Nigeria","USA","Canada","Kenya"
+    "job_titles": [
+        "Product Designer",
+        "UX Designer",
+        "UI Designer",
+        "Interaction Designer",
+        "UX Researcher",
+        "Design Systems"
+    ],
+    "locations": ["Remote"],
+    "country_indeed": "Nigeria",
     "telegram": {
-        "bot_token": "8804514780:AAE1sL8mcjIPpNS644gsbyjsmwE68NYDBfs",
-        "chat_id": "8874729933"
+        "bot_token": "",
+        "chat_id": ""
     }
 }
