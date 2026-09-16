@@ -1,9 +1,9 @@
 {
-    "job_titles": ["Business Analyst", "Data Analyst", "Product Owner", "Project Manager"],
-    "locations": ["Galicia"],
-    "country_indeed": "Spain",
+    "job_titles": ["Product Designer", "UX Designer", "UI Designer", "Interaction Designer"],
+    "locations": ["Remote","USA","Canada","Kenya"],
+    "country_indeed": "Nigeria","USA","Canada","Kenya"
     "telegram": {
-        "bot_token": "8190606558:AAEZOZdJRizbtGfgJ2S6who1a3_EzPu6ovQ",
-        "chat_id": "6681609690"
+        "bot_token": "8804514780:AAE1sL8mcjIPpNS644gsbyjsmwE68NYDBfs",
+        "chat_id": "8874729933"
     }
 }
