@@ -88,9 +88,14 @@ def main():
         job_titles = config["job_titles"]
         locations = config["locations"]
         country_indeed = config["country_indeed"]
+                import os
         telegram_config = config["telegram"]
-        bot_token = telegram_config["bot_token"]
-        chat_id = telegram_config["chat_id"]
+        bot_token = telegram_config.get("bot_token") or os.environ.get("TELEGRAM_BOT_TOKEN", "")
+        chat_id = telegram_config.get("chat_id") or os.environ.get("TELEGRAM_CHAT_ID", "")
+
+        if not bot_token or not chat_id:
+            logging.error("Telegram credentials missing.")
+            return
 
         # Fetch combined job postings
         combined_jobs_df = fetch_combined_job_posts(job_titles, locations, country_indeed)
